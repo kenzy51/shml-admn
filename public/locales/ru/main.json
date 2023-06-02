@@ -1,0 +1,19 @@
+{
+  "mainPage": "Главная страница",
+  "profile": "Профиль",
+  "auth":"Авторизация",
+  "submit":"Войти",
+  "password":"Пароль",
+  "inputYourPassword":"Введите свой пароль",
+  "inputYourEmail":"Введите свой E-mail",
+  "notValidEmail":"Невалидный E-mail",
+  "rulePassword":"Пароль должен состоять минимум из 8 символов",
+  "requiredEmail":"Email обязателен",
+  "requiredPassword":"Пароль обязателен",
+  "common":"Общее",
+  "events":"События",
+  "companies":"Компании",
+  "chat":"Чат",
+  "users":"Пользователи",
+  "userNotification":"Уведомления"
+  }

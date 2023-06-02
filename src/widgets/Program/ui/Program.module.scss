@@ -1,0 +1,20 @@
+.program{
+    width: 100%;
+    background-color: white;
+    box-shadow: 5px 5px 16px rgba(121, 121, 121, 0.25);
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition-duration: .32s;
+    margin-top: 1%;
+}
+
+.listWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

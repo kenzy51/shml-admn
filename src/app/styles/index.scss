@@ -1,0 +1,37 @@
+@import "reset";
+@import "variables/global";
+@import "variables/colors";
+
+.app,
+.app_modal {
+    font: var(--font-m);
+    color: var(--primary-color);
+}
+
+.app {
+    background: var(--bg-color);
+    min-height: 100vh;
+}
+
+.content-page {
+    background-color: white;
+    z-index: 99 !important;
+    display: flex;
+}
+
+.page-wrapper {
+    background: $gray-9;
+    flex-grow: 1;
+    padding: 20px;
+
+    &.is-auth {
+        height: 100vh;
+        background: $white;
+    }
+}
+.spin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+}

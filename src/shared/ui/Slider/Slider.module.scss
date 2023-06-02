@@ -1,0 +1,36 @@
+.mySwiper2 {
+    margin-bottom: 2%;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 400px;
+    margin-top: -15%;
+    transform: scale(0.78);
+    background-color: white;
+  }
+  .slider_img {
+    border-radius: 8px !important;
+    height: 430px;
+    width: 100%;
+    position: relative !important;
+    object-fit: contain;
+  }
+  
+  .slider_second_img {
+    height: 80px;
+    width: 100%;
+    border-radius: 8px;
+    position: relative !important;
+    object-fit: contain;
+  }
+  .mySwiper {
+    display: flex;
+    width: 300px;
+    margin-top: -5%;
+    & .swiper-slide-thumb-active {
+      border: blue 1px solid !important;
+    }
+    cursor: pointer;
+    background-color: #E7E9EB;
+  
+  }
+  

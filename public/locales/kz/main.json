@@ -1,0 +1,20 @@
+{
+  "mainPage": "Башкы даракча",
+  "profile": "Профиль",
+  "auth": "Kipyy",
+  "submit": "Kіру",
+  "password": "Kұпия сөз",
+  "inputYourPassword": "Құпия сөзіңізді енгізіңіз",
+  "inputYourEmail": "Электрондық поштаңызды енгізіңіз",
+  "notValidEmail": "Жарамсыз электрондық пошта",
+  "rulePassword":"Құпия сөз кемінде 8 таңбадан тұруы керек ",
+  "requiredEmail":"Электрондық пошта қажет",
+  "requiredPassword":"Құпия сөз қажет",
+  "common":"Жалпы",
+  "events":"Оқиғалар",
+  "companies":"Компаниялар",
+  "chat":"Чат",
+  "users":"Пайдаланушылар",
+  "userNotification":"Пайдаланушы"
+
+}

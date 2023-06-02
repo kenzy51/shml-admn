@@ -1,0 +1,20 @@
+.wrapperList{
+    margin-top: 1.6%;
+}
+.listItem{
+    width: 100%;
+    background-color: white;
+    padding-left: 2% !important;
+    margin-top: 1%;
+    border-radius: 10px;
+    background-color: white;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+:global{
+    .ant-btn {
+        margin-bottom: 1%;
+    }
+}

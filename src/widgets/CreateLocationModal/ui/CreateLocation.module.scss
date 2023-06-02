@@ -1,0 +1,16 @@
+.leaflet_container{
+width: 55%;
+height: 28vw;
+border-radius: 10px;
+margin-bottom: 1%;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.inputBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

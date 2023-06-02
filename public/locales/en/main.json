@@ -1,0 +1,19 @@
+{
+  "mainPage": "Main Page",
+  "profile": "Profile",
+  "auth":"Authorization",
+  "submit":"Join in",
+  "password":"Password",
+  "inputYourPassword":"Type your password",
+  "inputYourEmail":"Input your E-mail",
+  "notValidEmail": "Please input valid E-mail",
+  "rulePassword":"Password must be at least 8 characters!",
+  "requiredEmail":"Email is required",
+  "requiredPassword":"Password is required",
+  "common":"Common",
+  "events":"Events",
+  "companies":"Companies",
+  "chat":"Chat",
+  "users":"Users",
+  "userNotification":"Notifications"
+}

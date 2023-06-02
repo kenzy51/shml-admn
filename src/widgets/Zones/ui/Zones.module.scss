@@ -1,0 +1,15 @@
+.listItem{
+    padding-left: 2% !important;
+    margin-top: 1%;
+    border-radius: 10px;
+    background-color: white;
+    padding-right: 2% !important;
+  :global{
+    .anticon-delete{
+        transform: scale(1.5);
+    } 
+    .anticon-delete:hover{
+        fill: red;
+    }
+  }
+}

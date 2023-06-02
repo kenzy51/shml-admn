@@ -1,0 +1,102 @@
+p {
+    margin-bottom: 0;
+}
+
+.wrapper {
+    flex-direction: column;
+}
+.eachCard {
+    width: 100%;
+    background-color: white;
+    box-shadow: 5px 5px 16px rgba(121, 121, 121, 0.25);
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3%;
+    cursor: pointer;
+    transition-duration: .32s;
+}
+.eachCard:hover {
+    box-shadow: 20px 20px 26px rgba(121, 121, 121, 0.25);
+    
+}
+.image {
+    max-width: 253px;
+    border-radius: 10px;
+}
+.infoContent {
+    width: 40%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.info2 {
+    padding: 1% 0;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 50px;
+}
+
+.cards{
+    gap: 3%;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+.card{
+    box-shadow: 10px 10px 16px rgba(121, 121, 121, 0.25);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 13px;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: 20px 20px 26px rgba(121, 121, 121, 0.25);
+    
+}
+.pagination{
+    display: flex;
+    justify-content: flex-end
+}
+.delete{
+    display: flex;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    & .addBtn {
+        margin-right: 24px;
+    }
+
+    & .list {
+        width: 100%;
+    }
+}
+
+.spin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+    
+}
+
+:global{
+    .ant-list-pagination{
+        .ant-pagination{
+                margin-top: 20px !important;
+        } 
+    }
+    }
+   

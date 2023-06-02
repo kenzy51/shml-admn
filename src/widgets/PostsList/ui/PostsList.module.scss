@@ -1,0 +1,52 @@
+.posts{
+    display: flex;
+    flex-direction: column;
+    gap: 2% !important;
+}
+.card{
+    margin-bottom: 2%;
+    margin-top: 1%;
+    width: 17%;
+    border-radius: 15px !important;
+}
+.img{
+    height: 200px;
+    object-fit: contain;
+}
+.spin{
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 25% !important;
+    
+}
+:global{
+    .ant-card-body{
+        .ant-btn {
+            display: flex;
+            margin: 0 auto;
+            margin-top: 7%;
+        }
+    }
+    .ant-modal-content{
+        .ant-modal-close-x{
+            margin-left: -16px !important;
+          }
+       }
+       .ant-list-pagination{
+        .ant-pagination{
+                margin-top: -5% !important;
+        } 
+    }
+}
+
+.pagination{
+    margin-top: 1%;
+}
+
+.post{
+    padding-left: 2% !important;
+    margin-top: 1%;
+    border-radius: 10px;
+    background-color: white;
+    
+}

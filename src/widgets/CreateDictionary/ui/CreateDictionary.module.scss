@@ -1,0 +1,17 @@
+.form{
+    width: 50%;
+    margin: 0 auto;
+    :global{
+        .ant-input-group{
+                display: flex !important;
+                flex-direction: column;
+        }
+    }
+}
+.mappedForms{
+    gap: 5px !important;
+    display: flex;
+}
+.formItem{
+    margin-top: 1%;
+}

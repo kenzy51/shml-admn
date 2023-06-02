@@ -1,0 +1,28 @@
+.uploadAndSubmit{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -10%;
+}
+
+:global{
+   .ant-row .ant-form-item-label{
+    margin-bottom: -3%;
+}
+   .ant-modal-body{
+    margin-top: -4%;
+      
+   }
+   .ant-modal-title{
+    margin-bottom: 25px !important;
+   }
+   .ant-modal-content{
+    .ant-modal-close-x{
+        margin-left: -16px !important;
+      }
+   }
+  
+}
